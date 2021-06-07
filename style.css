@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: interstate, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(255, 224, 214);
+  margin: 0;
+  background-color: black;
+}
