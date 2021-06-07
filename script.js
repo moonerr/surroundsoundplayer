@@ -9,7 +9,9 @@ function preload(){
 }
 function setup(){
     // c=createCanvas(640, 360, P2D);//width, height, mode
-    c=createCanvas(1280, 720, P2D)
+    // c=createCanvas(1280, 720, P2D)
+    let w = window.innerWidth;
+    c = createCanvas( 0.8 * w , 0.45 * w , P2D) ;
     const ctx = canvas.getContext('2d')
     // rectMode(CENTER);
     
@@ -55,6 +57,11 @@ function musicSwitch(){
 }
 
 function draw(){
+
+    let w = window.innerWidth;
+    resizeCanvas(0.8*w, 0.45*w);
+
+
     background(0.0);
     image(img1, 0, 0, width, height);
     cursor(HAND);
