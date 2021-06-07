@@ -94,9 +94,9 @@ function draw(){
 
     // balls
     
-    var Xs = [0, 0.04*width, 0.255*width, 0.18*width, 0.455*width, 0.6*width, 0.7*width, 0.7998*width, 0.7*width, 0.95*width];
+    var Xs = [0, 0.039*width, 0.255*width, 0.18*width, 0.455*width, 0.6*width, 0.7*width, 0.7998*width, 0.7*width, 0.95*width];
     var Ys = [0, 0.4*height, 0.245 * height, 0.65 * height, 0.3*height, 0.4 * height, 0.05*height, 0.3*height, 0.6*height, 0.495*height];
-    var r = [0, 0.07 * height, 0.072 * height, 0.05*height, 0.1 * height, 0.042*height, 0.052*height, 0.0675*height, 0.116*height, 0.0503*width];
+    var r = [0, 0.07 * height, 0.072 * height, 0.05*height, 0.1 * height, 0.042*height, 0.052*height, 0.068*height, 0.116*height, 0.0503*width];
     let Colours = [0, color(255, rgbx, 147, abs(by-bx)), color(rgbx, 69, rgby, by), color(255, rgby, 0, 100-bx), color(rgby, 0, 255, by),
         color(150, rgbx, rgby, bx),color(50, rgby, 255, by),color(0, rgbx, 255, bx),color(rgbx, 165, 0, bx),
         color(255, rgby, 122, by),color(0, rgby, 205, by)];

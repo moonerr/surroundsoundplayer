@@ -4,9 +4,68 @@
 
 body {
   font-family: interstate, sans-serif;
-  font-weight: 200;
   font-style: italic;
   color: rgb(255, 224, 214);
   margin: 0;
-  background-color: black;
+  background-color: rgb(12, 12, 12);
+
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 100;
+  padding: 2em 0 0.2em 0;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 100;
+}
+p {
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.sect {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.guide {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  padding: 4em 0;
+}
+
+.control .game {
+  font-size: 1.5em;
+  padding: 1em 2em;
+
+  border-radius: 0.8em;
+  border-width: 0ch;
+  font-weight: 600;
+  margin-bottom: 2em;
+  cursor: pointer;
+}
+
+.off {
+  background-color: tomato;
+  color: black;
+}
+
+.on {
+  background-color: 255, 224, 214;
+  color: tomato;
+}
+
+.control p {
+  width: 50%;
+  margin: auto;
+}
+
+.interface {
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
 }
